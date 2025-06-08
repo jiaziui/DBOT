@@ -1,0 +1,8 @@
+prefix=/home/jia/robot_catkin_ws/install
+
+Name: robot_i2c_driver
+Description: Description of robot_i2c_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs std_msgs

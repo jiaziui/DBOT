@@ -1,0 +1,8 @@
+prefix=/home/jia/robot_catkin_ws/devel
+
+Name: robot_speak
+Description: Description of robot_speak
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs std_msgs

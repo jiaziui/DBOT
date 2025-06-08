@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="robot_machine_driver" type="robot_machine_driver" name="robot_machine_driver" output="screen"/>
+
+</launch>

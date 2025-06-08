@@ -1,0 +1,3 @@
+string chinese_text
+int32 msg_buffer_flag
+int32 msg_clear_buffer_flag

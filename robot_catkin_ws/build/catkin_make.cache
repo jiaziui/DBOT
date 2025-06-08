@@ -1,0 +1,2 @@
+robot_i2c_driver:robot_key_control:robot_machine_driver:robot_manager:robot_speak:ros_mpu6050_node:web_video_server-ros1
+-DCATKIN_DEVEL_PREFIX=/home/jia/robot_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jia/robot_catkin_ws/install -G Unix Makefiles

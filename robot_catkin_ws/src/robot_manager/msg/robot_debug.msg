@@ -1,0 +1,9 @@
+int32 servo_run_power
+int32 robot_landF
+int32 robot_landB
+int32 robot_fhMax
+int32 robot_swMax
+int32 robot_sport_state
+int32 robot_fwctUp
+int32 robot_control
+int32 robot_fwctEnd

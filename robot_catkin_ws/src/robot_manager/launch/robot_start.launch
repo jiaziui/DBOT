@@ -1,0 +1,20 @@
+<launch>
+  <param name="/web_video_server_1/port" type="int" value="33306" />
+  <param name="/web_video_server_1/address" type="string" value="192.168.137.225" />
+
+  <node name="robot_manager" pkg="robot_manager" type="robot_manager" />
+
+  <include file="$(find robot_speak)/launch/robot_speak.launch" />
+
+  <include file="$(find usb_cam)/launch/usb_cam-test.launch" />
+  <include file="$(find web_video_server)/launch/web_video_server.launch" />
+
+  <include file="$(find robot_i2c_driver)/launch/robot_i2c_driver.launch" />
+  <include file="$(find robot_machine_driver)/launch/robot_machine_driver.launch" />
+
+
+  <!--node name="robot_msg_center" pkg="robot_msg_center" type="robot_msg_center" /-->  
+  
+   
+</launch>
+

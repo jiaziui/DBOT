@@ -1,0 +1,2 @@
+int32 robot_control_date
+int32 robot_speed

@@ -1,0 +1,8 @@
+prefix=/home/jia/robot_catkin_ws/install
+
+Name: robot_key_control
+Description: Description of robot_key_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs robot_manager

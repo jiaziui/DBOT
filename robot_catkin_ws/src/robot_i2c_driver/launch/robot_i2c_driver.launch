@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="robot_i2c_driver" type="robot_i2c_driver.py" name="robot_i2c_driver" output="screen"/>
+
+</launch>

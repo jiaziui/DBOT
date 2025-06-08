@@ -1,0 +1,2 @@
+int32 robot_vosk_flag
+int32 robot_audio_flag

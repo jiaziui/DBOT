@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="robot_speak" type="robot_speak.py" name="robot_speak" output="screen"/>
+    <node pkg="robot_speak" type="robot_hear_vosk.py" name="robot_hear_vosk" output="screen"/>
+
+</launch>
